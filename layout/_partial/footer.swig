@@ -2,15 +2,15 @@
 {% include "./_footer/social.swig" %}
 
 <div class="copyright">
-  <span class="power-by">
-    {{ __('footer.powered', '<a class="hexo-link" href="https://hexo.io/">Hexo</a>') }}
+  <span class="hosted-by-coding-pages">
+    Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>
   </span>
-  <span class="division">|</span>
-  <span class="theme-info">
-    {{ __('footer.theme') }} - 
-    <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even">Even</a>
+  <br/>
+  <span id="busuanzi">
+  <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  PV: <span id="busuanzi_value_site_pv"></span> | UV: <span id="busuanzi_value_site_uv"></span>
   </span>
-
+  
   <span class="copyright-year">
     {% set current = date(Date.now(), "YYYY") %}
     &copy; 

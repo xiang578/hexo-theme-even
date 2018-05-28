@@ -17,11 +17,11 @@ rss: default
 # Menu Settings
 # ===========================================
 menu:
-  Home: /
-  Archives: /archives/
-  # Tags: /tags
-  # Categories: /categories
-  # About: /about
+  Home: 
+  # Archives: /archives/
+  Tags: /tags
+  Categories: /categories
+  About: /about
 
 # ===========================================
 # Theme Settings
@@ -40,24 +40,23 @@ copyright:
 
 reward:
   enable: false
-  qrCode:
-    wechat:
-    alipay:
+  qrCode: /img/wechat.jpg
+  alipay: /img/alipay.jpg
 
 # ===========================================
 # Social links Settings
 # ===========================================
 social:
-  email: your@email.com
+  email: i@xiang578.com
   stack-overflow:
-  twitter:
-  facebook:
-  linkedin:
-  google:
-  github:
+  twitter: https://twitter.com/xiang578
+  facebook: https://www.facebook.com/profile.php?id=100009528134157
+  linkedin: https://www.linkedin.com/in/%E9%97%B0%E5%86%B6-%E9%A1%B9-a2b708134/
+  google: 
+  github: https://github.com/xiang578
   weibo:
-  zhihu:
-  douban:
+  zhihu: https://www.zhihu.com/people/xiang578/activities
+  douban: https://www.douban.com/people/xiang578/
   pocket:
   tumblr:
   instagram:
@@ -68,27 +67,29 @@ social:
 
 # LeanCloud
 leancloud:
-  app_id:
-  app_key:
+  app_id: rrSjo9LK0keh9l15bYOQScDF-gzGzoHsz
+  app_key: SHpy5xi5vjhNA7cz7THf03vk
 
 # Baidu Analytics
-baidu_analytics:
+baidu_analytics: d0cbaae42702a7213f06cb394a34a120
 # Baidu Verification
-baidu_verification:
+baidu_verification: xf6fMthFjE
 
 # Google Analytics
-google_analytics:
+google_analytics: 
 # Google Verification
-google_verification:
+google_verification: TWXGagJ1F37oqHnV7_lLU_ZDeJ1zzwseILCwLz9Dii8
 
 # Disqus
-disqus_shortname:
+disqus_shortname: xiang578
 
 #Changyan
 changyan:
   appid:
   appkey:
 
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
+baidu_push: true
 # ===========================================
 # Version
 # ===========================================
