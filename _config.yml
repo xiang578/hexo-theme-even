@@ -17,19 +17,11 @@ rss: default
 # Menu Settings
 # ===========================================
 menu:
-<<<<<<< HEAD
   Home: 
   # Archives: /archives/
   Tags: /tags
   Categories: /categories
   About: /about
-=======
-  Home: /
-  # Archives: /archives/
-  # Tags: /tags
-  # Categories: /categories
-  # About: /about
->>>>>>> 6663ad46dd0c776884c284b09f38035091294baf
 
 # ===========================================
 # Theme Settings
@@ -58,19 +50,11 @@ reward:
 social:
   email: i@xiang578.com
   stack-overflow:
-<<<<<<< HEAD
   twitter: https://twitter.com/xiang578
   facebook: https://www.facebook.com/profile.php?id=100009528134157
   linkedin: https://www.linkedin.com/in/%E9%97%B0%E5%86%B6-%E9%A1%B9-a2b708134/
   google: 
   github: https://github.com/xiang578
-=======
-  twitter:
-  facebook:
-  linkedin:
-  google:
-  github: https://github.com/ahonn
->>>>>>> 6663ad46dd0c776884c284b09f38035091294baf
   weibo:
   zhihu: https://www.zhihu.com/people/xiang578/activities
   douban: https://www.douban.com/people/xiang578/
@@ -105,14 +89,12 @@ changyan:
   appid:
   appkey:
 
-<<<<<<< HEAD
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: true
 =======
 #LiveRe
 livere_datauid:
 
->>>>>>> 6663ad46dd0c776884c284b09f38035091294baf
 # ===========================================
 # Version
 # ===========================================
