@@ -19,6 +19,7 @@ rss: default
 menu:
   Home: 
   # Archives: /archives/
+  Tech: /tech
   Tags: /tags
   Categories: /categories
   About: /about
