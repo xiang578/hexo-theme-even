@@ -2,10 +2,6 @@
 {%- include "./_footer/social.swig" -%}
 
 <div class="copyright">
-  <span class="hosted-by-coding-pages">
-    Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>
-  </span>
-  <br/>
   <span id="busuanzi">
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   PV: <span id="busuanzi_value_site_pv"></span> | UV: <span id="busuanzi_value_site_uv"></span>
