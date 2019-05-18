@@ -1,9 +1,11 @@
-{% extends "_layout.swig" %}
-{% import '_macro/post.swig' as post_template %}
+{%- extends "_layout.swig" -%}
+{%- import '_macro/post.swig' as post_template -%}
+{%- import '_macro/archive.swig' as archive_template -%}
 
-{% block title %} {{ config.title }} {% endblock %}
+{%- block title -%} {{ config.title }} {%- endblock -%}
 
-{% block content %}
+{%- block content -%}
+  {%- set mode = theme.mode.toLowerCase() -%}
   <section id="posts" class="posts">
     {% set howMuch = {} %}
     {% set totalCount = 0 %}
@@ -52,6 +54,4 @@
     {% endfor %}
     </section>
   </section>
-
-  {% include "_partial/pagination.swig" %}
-{% endblock %}
+{%- endblock -%}
