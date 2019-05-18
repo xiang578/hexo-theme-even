@@ -19,7 +19,7 @@ rss: default
 menu:
   Home: 
   # Archives: /archives/
-  Tech: https://alg.xiang578.com
+  Tech: /tech
   Tags: /tags
   Categories: /categories
   About: /about
